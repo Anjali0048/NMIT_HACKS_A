@@ -1,9 +1,14 @@
 import './App.css';
+import Footer from './components/Footer';
+import Navbar from './components/Navbar';
+import Dashboard from './pages/Dashboard';
 
 function App() {
   return (
-    <div className="App">
-      <h1 className='text-blue-700 text-3xl'>Anjali Singh</h1>
+    <div>
+      <Navbar/>
+      <Dashboard/>
+      <Footer/>
     </div>
   );
 }
